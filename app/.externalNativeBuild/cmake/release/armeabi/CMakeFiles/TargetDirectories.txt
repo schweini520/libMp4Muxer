@@ -1,0 +1,3 @@
+D:/android/project/MideaMuxer/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/Mp4v2Helper.dir
+D:/android/project/MideaMuxer/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/edit_cache.dir
+D:/android/project/MideaMuxer/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/rebuild_cache.dir

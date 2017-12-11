@@ -1,0 +1,46 @@
+
+{
+	"buildFiles" : [ "D:/android/project/MideaMuxer/app/CMakeLists.txt" ],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"D:\\Users\\Administrator\\AppData\\Local\\Android\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\android\\project\\MideaMuxer\\app\\.externalNativeBuild\\cmake\\release\\armeabi --target clean"
+	],
+	"libraries" : 
+	{
+		"Mp4v2Helper-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "Mp4v2Helper",
+			"buildCommand" : "D:\\Users\\Administrator\\AppData\\Local\\Android\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\android\\project\\MideaMuxer\\app\\.externalNativeBuild\\cmake\\release\\armeabi --target Mp4v2Helper",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=D:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/sysroot -DMp4v2Helper_EXPORTS -I..\\..\\..\\..\\libs\\include  -isystem D:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "D:/android/project/MideaMuxer/app/src/main/cpp/Mp4Muxer.c",
+					"workingDirectory" : "D:/android/project/MideaMuxer/app/.externalNativeBuild/cmake/release/armeabi"
+				}
+			],
+			"output" : "D:/android/project/MideaMuxer/app/build/intermediates/cmake/release/obj/armeabi/libMp4v2Helper.so",
+			"toolchain" : "2048960033"
+		},
+		"mp4v2-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "mp4v2",
+			"buildType" : "release",
+			"output" : "../../../../libs/armeabi/libmp4v2.so",
+			"toolchain" : "2048960033"
+		}
+	},
+	"toolchains" : 
+	{
+		"2048960033" : 
+		{
+			"cCompilerExecutable" : "D:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "D:/Users/Administrator/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}
